@@ -4,14 +4,15 @@
   "description": "Doxygen XML to Markdown documentation converter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node $NODE_DEBUG_OPTION ./bin/moxygen.js --anchors --output test/docs/api.md test/docs/xml",
+    "start": "node $NODE_DEBUG_OPTION ./bin/moxygen.js --anchors --output test/docs/api.md test/docs/xml"
   },
   "bin": {
     "moxygen": "./bin/moxygen.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sourcey/moxygen.git"
+    "url": "https://github.com/damiles/moxygen.git"
   },
   "keywords": [
     "doxygen",

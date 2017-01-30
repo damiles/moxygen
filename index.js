@@ -32,7 +32,8 @@ module.exports = {
         'public-attrib',
         'public-func',
         'protected-attrib',
-        'protected-func'
+        'protected-func',
+        'func'
       ],
       compounds: [
         'namespace',

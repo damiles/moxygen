@@ -282,6 +282,7 @@ module.exports = {
           case 'protected-func':
           case 'private-attrib':
           case 'private-func':
+          case 'func':
             if (section.memberdef) {
               section.memberdef.forEach(function (memberdef) {
                 var member = this.references[memberdef.$.id];
